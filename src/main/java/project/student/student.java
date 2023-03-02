@@ -6,7 +6,7 @@ public class STUDENT {
     int age;
     double gpa;
 
-    student(String name, int age, double gpa){
+    STUDENT(String name, int age, double gpa){
         this.name = name;
         this.age = age;
         this.gpa = gpa;
