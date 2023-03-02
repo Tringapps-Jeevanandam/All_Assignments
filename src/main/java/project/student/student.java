@@ -1,7 +1,7 @@
 package project.student;
 
 
-public class Student {
+public class STUDENT {
     String name;
     int age;
     double gpa;
