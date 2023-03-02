@@ -18,7 +18,8 @@ public class dbconnection {
 
      protected static void newconnection(){
         flag = 1;
-        Log.info("Connection created: "+con);
+        String str = "Connection created: "+con;
+        Log.info(str);
 
     }
 

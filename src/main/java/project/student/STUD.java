@@ -44,7 +44,8 @@ public class STUD {
         }
     }
     catch(InputMismatchException e){
-        System.out.println("Exception"+e);
+        String exp="Exception"+e;
+        Log.info(exp);
         x= sc.nextInt();
     }
     }
