@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 public class StackArr {
     public static final Logger Log = Logger.getLogger("InfoLogging");
 
-    protected void StckArr() {
+    protected void satckarr() {
         int size;
         int choice;
         int val;

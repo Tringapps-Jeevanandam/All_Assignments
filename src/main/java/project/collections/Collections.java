@@ -22,7 +22,7 @@ public class Collections
                 }
                 case 2:{
                     StackArr sa = new StackArr();
-                    sa.StckArr();
+                    sa.satckarr();
                     break;
                 }
                 case 3: temp = false;break;
