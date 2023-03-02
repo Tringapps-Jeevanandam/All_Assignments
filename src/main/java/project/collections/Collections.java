@@ -16,7 +16,7 @@ public class Collections
             ch = sc.nextInt();
             switch(ch){
                 case 1: {
-                    arrlist a = new arrlist();
+                    ARR a = new ARR();
                     a.ArrList();
                     break;
                 }
