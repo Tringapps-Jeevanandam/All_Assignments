@@ -13,7 +13,7 @@ public class files {
   public static final Logger Log = Logger.getLogger("InfoLogging");
 
   public static void file() throws IOException {
-    String fileName = "C:/Users/Jeevanandam/Desktop/newfile.txt";
+    String fileName = "newfile.txt";
     Map<String, Integer> wordCounts = new HashMap<>();
 
     try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
