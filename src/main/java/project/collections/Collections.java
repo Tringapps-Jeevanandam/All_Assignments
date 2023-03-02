@@ -17,7 +17,7 @@ public class Collections
             switch(ch){
                 case 1: {
                     ARR a = new ARR();
-                    a.ALIST();
+                    a.AList();
                     break;
                 }
                 case 2:{
