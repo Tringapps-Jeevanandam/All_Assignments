@@ -17,12 +17,12 @@ public class Collections
             switch(ch){
                 case 1: {
                     arrlist a = new arrlist();
-                    a.arrList();
+                    a.ArrList();
                     break;
                 }
                 case 2:{
                     StackArr sa = new StackArr();
-                    sa.Stackarr();
+                    sa.StckArr();
                     break;
                 }
                 case 3: temp = false;break;
