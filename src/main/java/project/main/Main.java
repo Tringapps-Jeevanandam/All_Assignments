@@ -6,7 +6,6 @@ import project.creditcard.CreditCard;
 import project.dbconnection.DataBase;
 import project.files.FILES;
 import project.hashtree.HASH;
-import project.hashtree.HASH;
 import project.point.Point2d;
 import project.school.School;
 import project.shape.Shape;
