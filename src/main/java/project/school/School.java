@@ -3,6 +3,9 @@ import java.util.*;
 import java.util.logging.Logger;
 public class School{
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private School(){
+        Log.info("Student GPA");
+    }
     public static void schl() {
         String studName;
         int grade;
