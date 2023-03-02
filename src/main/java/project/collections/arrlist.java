@@ -3,7 +3,7 @@ import java.util.logging.Logger;
 import java.util.*;
 public class arrlist {
     public static final Logger Log = Logger.getLogger("InfoLogging");
-    protected  void arrList() {
+    protected  void ArrList() {
         ArrayList<Integer> x = new ArrayList<>();
         Scanner input = new Scanner(System.in);
         int choice;
