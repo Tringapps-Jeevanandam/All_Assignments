@@ -2,7 +2,7 @@ package project.student;
 import java.util.*;
 import java.util.logging.*;
 
-public class studTest {
+public class StudTest {
     public static final Logger Log = Logger.getLogger("InfoLogging");
 
     public static void stud() {
