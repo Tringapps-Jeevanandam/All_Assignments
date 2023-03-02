@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class files {
+public class FILES{
   public static final Logger Log = Logger.getLogger("InfoLogging");
 
   public static void file() throws IOException {
