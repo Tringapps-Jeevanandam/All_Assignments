@@ -2,20 +2,20 @@ package project.dbconnection;
 import java.util.*;
 import java.util.logging.Logger;
 
-public class database {
+public class DataBase {
     public static final Logger Log = Logger.getLogger("InfoLogging");
     public static void db() {
         Scanner input = new Scanner(System.in);
         boolean flag=true;
         while(flag){
             try{
-            dbconnection.getInstance();
+            DBConnect.getInstance();
             Log.info("1.New Connection\n2.Close Connection\n3.Exit\nEnter choice:");
             int option = input.nextInt();
             switch(option){
-                case 1: dbconnection.newconnection(); 
+                case 1: DBConnect.newconnection(); 
                         break;
-                case 2: dbconnection.closeconnection(); 
+                case 2: DBConnect.closeconnection(); 
                         break;
                 case 3: flag=false; 
                         break;
