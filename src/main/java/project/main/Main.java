@@ -10,7 +10,7 @@ import project.point.Point2d;
 import project.school.School;
 import project.shape.Shape;
 import project.simplecalc.SimpleCalc;
-import project.student.studTest;
+import project.student.STUDTEST;
 import project.tictactoe.TicTacToe;
 import java.util.logging.Logger;
 import java.io.IOException;
@@ -32,7 +32,7 @@ public class Main {
                 case 3:CreditCard.credit(); break;
                 case 4:database.db(); break;
                 case 5:Point2d.pointmain(); break;
-                case 6:studTest.stud(); break;
+                case 6:STUDTEST.stud(); break;
                 case 7:SimpleCalc.calc(); break;
                 case 8:files.file(); break;
                 case 9:Collections.collections(); break;
