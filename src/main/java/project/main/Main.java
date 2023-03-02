@@ -47,7 +47,8 @@ public class Main {
 
             }
             catch(Exception e){
-                e.printStackTrace();
+                String exp = "Exception:"+e;
+                Log.info(exp);
                 
             }
         }while(flag);
