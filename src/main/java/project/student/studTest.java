@@ -2,7 +2,7 @@ package project.student;
 import java.util.*;
 import java.util.logging.*;
 
-public class studtest {
+public class STUDTEST {
     public static final Logger Log = Logger.getLogger("InfoLogging");
 
     public static void stud() {
@@ -10,7 +10,7 @@ public class studtest {
         int age;
         double gpa;
         int x;
-        List<stdent> studentList = new ArrayList<>();
+        List<STUDENT> studentList = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         try{
         Log.info("How many student details you want to enter:");
@@ -20,25 +20,25 @@ public class studtest {
             name = sc.next();
             age = sc.nextInt();
             gpa = sc.nextDouble();
-            studentList.add(new stdent(name,age,gpa));
+            studentList.add(new STUDENT(name,age,gpa));
         }
       
         sc.close();
-        for(stdent student:studentList){
+        for(STUDENT student:studentList){
             Log.info("Name: " + student.getName());
             Log.info("Age: " + student.getAge());
             Log.info("GPA: " + student.getGpa());
         }
 
-        Collections.sort(studentList, new Comparator<stdent>() {
+        Collections.sort(studentList, new Comparator<STUDENT>() {
             @Override
-            public int compare(stdent s1, stdent s2) {
+            public int compare(STUDENT s1, STUDENT s2) {
                 return s2.getGpa().compareTo(s1.getGpa());
             }
         });
         Log.info("After Sorting ");
 
-        for(stdent student:studentList){
+        for(STUDENT student:studentList){
             Log.info("Name: " + student.getName());
             Log.info("GPA: " + student.getGpa());
         }
