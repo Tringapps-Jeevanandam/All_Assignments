@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class TicTacToe {
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private TicTacToe(){
+        Log.info("Tic-Tac-Toe Game");
+    }
     protected static void display(char[][] board) {
         StringBuilder s = new StringBuilder("\n");
         for (int i = 0; i < board.length; i++) {

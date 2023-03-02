@@ -6,6 +6,9 @@ import java.util.logging.*;
 public class Collections 
 {
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private Collections(){
+        Log.info("Collections");
+    }
     public static void collections()
     {
         int ch;

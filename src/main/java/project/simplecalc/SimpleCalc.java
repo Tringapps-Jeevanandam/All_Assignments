@@ -5,7 +5,9 @@ import java.util.logging.Logger;
 
 public class SimpleCalc {
     public static final Logger Log = Logger.getLogger("InfoLogging");
-  
+    private SimpleCalc(){
+      Log.info("Simple Calculatore");
+    }
     public static void calc() {
       Scanner sc = new Scanner(System.in);
       Log.info("Enter first number: ");

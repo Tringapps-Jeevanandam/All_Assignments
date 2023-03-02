@@ -5,6 +5,9 @@ import java.util.logging.Logger;
 
 public class CreditCard{
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private CreditCard(){
+        Log.info("Credit Card");
+    }
     public static void credit()  {
         String cardHolderName;
         long cardNumber;

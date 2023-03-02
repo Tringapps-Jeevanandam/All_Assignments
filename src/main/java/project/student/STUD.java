@@ -4,7 +4,9 @@ import java.util.logging.*;
 
 public class STUD {
     public static final Logger Log = Logger.getLogger("InfoLogging");
-
+    private STUD(){
+        Log.info("Sorting Student GPA");
+    }
     public static void stud() {
         String name;
         int age;

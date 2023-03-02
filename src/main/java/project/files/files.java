@@ -11,6 +11,9 @@ import java.util.PriorityQueue;
 
 public class FILES{
   public static final Logger Log = Logger.getLogger("InfoLogging");
+  private FILES(){
+    Log.info("Files reading ");
+  }
 
   public static void file() throws IOException {
     String fileName = "newfile.txt";

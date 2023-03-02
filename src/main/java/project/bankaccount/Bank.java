@@ -4,6 +4,9 @@ import java.util.logging.Logger;
 
 public class Bank{
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private Bank(){
+        Log.info("Simple Bank Account");
+    }
 
     public static void bank() {
     BankAcc bk = new BankAcc();

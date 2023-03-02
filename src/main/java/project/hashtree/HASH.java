@@ -5,6 +5,9 @@ import java.util.logging.*;
 public class HASH
 {
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private HASH(){
+        Log.info("Collections");
+    }
 
     public static void ds()
     {

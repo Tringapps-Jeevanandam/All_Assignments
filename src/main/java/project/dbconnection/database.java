@@ -4,6 +4,10 @@ import java.util.logging.Logger;
 
 public class DataBase {
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private DataBase(){
+        Log.info("Database connection pool");
+
+    }
     public static void db() {
         Scanner input = new Scanner(System.in);
         boolean flag=true;

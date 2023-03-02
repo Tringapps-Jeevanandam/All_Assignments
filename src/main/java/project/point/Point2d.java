@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.logging.Logger;
 public class Point2d {
    public static final Logger Log = Logger.getLogger("InfoLogging");
+   private Point2d(){
+    Log.info("Cloning Co ordinates");
+   }
    public static void pointmain()  {
        float x1;
        float x2;

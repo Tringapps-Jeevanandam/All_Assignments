@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.logging.Logger;
 public class Shape{
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private Shape(){
+        Log.info("Area and perimeter of Shapes");
+    }
     public static void shap() {
         int choice;
         String shapeName;

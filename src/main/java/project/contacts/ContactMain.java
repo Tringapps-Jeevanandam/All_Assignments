@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.logging.Logger;
 public class ContactMain {
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    private ContactMain(){
+        Log.info("Store Contacts");
+    }
     public static void contacts() {
         StoreContact con = new StoreContact();
         Scanner input = new Scanner(System.in);
